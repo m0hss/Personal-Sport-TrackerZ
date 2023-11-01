@@ -129,7 +129,7 @@ public class CourseController {
 // - Chaque cours possède un nombre de places limitées. Le cours ne doit pas être rempli afin que l’utilisateur USER puisse s’inscrire.
      @Operation(
         summary = "Subscribe For a Course",
-        description = "Simple Users can only register after a coach registration, Course will be Available for users and coach will be assigned to entity coach attribute ")
+        description = "Simple Users can only register after a coach registration, then Course will be Available. ")
     @PutMapping("/{courseId}/register")
     
     public ResponseEntity<Object> register( @PathVariable Integer courseId, @RequestParam Integer userId) {
