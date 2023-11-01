@@ -32,7 +32,7 @@ build/
 .mvn/
 mvnw
 mvnw.cmd
-src/
+
 
 ### VS Code ###
 .vscode/

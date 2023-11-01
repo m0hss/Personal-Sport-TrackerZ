@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "m0.openapi.prod-url",
+    "type": "java.lang.String",
+    "description": "A description for 'm0.openapi.prod-url'"
+  },
+  {
+    "name": "m0.openapi.dev-url",
+    "type": "java.lang.String",
+    "description": "A description for 'm0.openapi.dev-url'"
+  }
+]}
