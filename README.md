@@ -4,7 +4,7 @@
 
  [![JDK Version](https://img.shields.io/badge/jdk-v17.0.9-green)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) [![Springboot3 Version](https://img.shields.io/badge/springboot-v3.1.6-green)](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)  [![springdocopenapi Version](https://img.shields.io/badge/springdoc--openapi-v2.2.0-green)](https://springdoc.org/) [![PostgreSQL Version](https://img.shields.io/badge/PostgreSQL-v15.1-green)](https://www.postgresql.org/download/)
 - [Personal-Sport-Trackerz REST API (Java17+SpringBoot3+OpenAPI3)](https://personal-sport-trackerz.onrender.com/swagger-ui/index.html)
-- [swagger-ui](https://personal-sport-trackerz.onrender.com/swagger-ui/index.html)
+- [swagger-ui](https://personal-sport-trackerz.onrender.com/swagger-ui/index.html) (personal-sport-trackerz.onrender.com - Server URL in Production envirenemment)
 - [v1/users](https://personal-sport-trackerz.onrender.com/v1/users)
 - [v1/courses](https://personal-sport-trackerz.onrender.com/v1/courses)
 - [/v1/users/1/courses](https://personal-sport-trackerz.onrender.com/v1/users/1/courses)
