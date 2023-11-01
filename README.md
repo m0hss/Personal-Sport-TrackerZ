@@ -1,5 +1,6 @@
 # Personal-Sport-TrackerZ
-![pst](https://github.com/m0hss/Personal-Sport-TrackerZ/assets/60576085/cfb53ed9-08db-4015-98f4-3a6f229c7cf0)
+
+![pst](https://github.com/m0hss/Personal-Sport-TrackerZ/assets/60576085/7aa1c3bc-9843-4068-9f27-ef7c1e5dc645)
 
  [![JDK Version](https://img.shields.io/badge/jdk-v17.0.9-green)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) [![Springboot3 Version](https://img.shields.io/badge/springboot-v3.1.6-green)](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)  [![springdocopenapi Version](https://img.shields.io/badge/springdoc--openapi-v2.2.0-green)](https://springdoc.org/) [![PostgreSQL Version](https://img.shields.io/badge/PostgreSQL-v15.1-green)](https://www.postgresql.org/download/)
 - Personal-Sport-Trackerz REST API (Java17+SpringBoot3+OpenAPI3)
@@ -83,9 +84,21 @@ $ mvn spring-boot:run
 
 ## Screenshots
 
-![trackerz](https://github.com/m0hss/Personal-Sport-TrackerZ/assets/60576085/de077242-36f5-4f59-9168-4c1081fa4753)
+
+![trackerz](https://github.com/m0hss/Personal-Sport-TrackerZ/assets/60576085/8bf74f64-6418-4738-a523-ad36e143750e)
 
 
+## Related
+
+Here are some related projects
+
+[spring-boot3-starter](https://start.spring.io)
+
+[spring-boot-swagger-3-example](https://github.com/bezkoder/spring-boot-swagger-3-example)
+
+[springdoc-openapi v2.2.0](https://springdoc.org/)
+
+[spring-boot-postgresql](https://www.bezkoder.com/spring-boot-postgresql-example)
 
 
 
