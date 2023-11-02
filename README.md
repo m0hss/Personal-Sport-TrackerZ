@@ -10,7 +10,7 @@
 - [/v1/users/1/courses](https://personal-sport-trackerz.onrender.com/v1/users/1/courses)
   
 ## API Reference
-#### Add New User
+- Add New User
 
 ```http
   POST /v1/users
@@ -20,7 +20,7 @@
 | :-------- | :------- | :------------------------- |
 | `user` | `User` | Add new user (Role: USER or COACH) |
 
-#### Available Courses ( COACH Already registred )
+- Available Courses ( COACH Already registred )
 
 ```http
   GET /v1/courses
@@ -30,7 +30,7 @@
 | :-------- | :------- | 
 | `id`      | `integer` |
 
-#### User Register
+- User Register
 
 ```http
   Put /v1/courses/{course_id}/register
@@ -41,7 +41,7 @@
 | `courseId`| `@PathVariable integer` |
 | `userId`| ` @RequestParam integer` |
 
-#### Unregister User
+- Unregister User
 
 ```http
   PUT /v1/users/courses/{courseId}/unregister
@@ -52,7 +52,7 @@
 | `userId`      | `@RequestParam Integer` |  
 | `courseId`      | `@PathVariable Integer ` |
 
-#### User All Courses (with state: OPEN or ENDED)
+- User All Courses (with state: OPEN or ENDED)
 
 ```http
   GET v1/users/{userId}/courses
@@ -63,7 +63,30 @@
 | `userId`      | `integer` | Fetch user by id |
 
 
+---
+
+## Applications.properties
+  
+
+Database initialising provided by Spring Boot is meant to be used only with embedded databases.
+
+Set loading Initial Data with [schema.sql](https://github.com/m0hss/Personal-Sport-TrackerZ/blob/master/src/main/resources/schema.sql) and [data.sql](https://github.com/m0hss/Personal-Sport-TrackerZ/blob/master/src/main/resources/data.sql) with in every restart :
+
+
+```bash
+spring.sql.init.mode=always
+```
+
+or
+
+```bash
+spring.sql.init.mode=never
+```
+
+
+
 ## Usage/Examples
+
 
 ```java
 $ mvnw -v             
@@ -96,13 +119,15 @@ $ mvn spring-boot:run
 
 Here are some related projects
 
-[spring-boot3-starter](https://start.spring.io)
+[Spring-boot3-starter](https://start.spring.io)
 
-[spring-boot-swagger-3-example](https://github.com/bezkoder/spring-boot-swagger-3-example)
+[Spring-boot-swagger-3-example](https://github.com/bezkoder/spring-boot-swagger-3-example)
 
-[springdoc-openapi v2.2.0](https://springdoc.org/)
+[Springdoc-openapi v2.2.0](https://springdoc.org/)
 
-[spring-boot-postgresql](https://www.bezkoder.com/spring-boot-postgresql-example)
+[Spring-boot-postgresql](https://www.bezkoder.com/spring-boot-postgresql-example)
+
+[Quick-Guide-Loading-Initial-Data-spring](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
 
 
 
